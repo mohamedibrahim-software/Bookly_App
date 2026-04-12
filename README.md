@@ -4,7 +4,9 @@ A feature-rich Flutter book browsing application with offline support, favorites
  
 ---
 ## ✨ screen shote
-
+---
+‪Screenshot_٢٠٢٦٠٤١٢_١٥٣٤٣٩_Video Player
+---
 <img width="1080" height="2160" alt="Screenshot_1775999930" src="https://github.com/user-attachments/assets/747bf8e7-b26d-4101-b591-98a7c4b88094" />
 ---
 4a52-976b-4d68da2d06cf" />
