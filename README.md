@@ -1,17 +1,100 @@
-# bookly_app
+# 📚 Bookly App
 
-A new Flutter project.
+A feature-rich Flutter book browsing application with offline support, favorites, cart, and more.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🏠 **Home** — Browse featured and newest books powered by Google Books API
+- ❤️ **Favorites** — Save your favorite books locally with Hive
+- 🛒 **Cart** — Add books to cart, adjust quantity, and view checkout summary
+- 🔍 **Search** — Search for any book by title or keyword
+- 🌙 **Dark Mode** — Full dark/light theme support
+- 📴 **Offline Mode** — Books cached locally using Hive for offline access
+- 🎬 **Onboarding** — Smooth onboarding screens with Lottie animations
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏗️ Architecture
+
+- **MVVM** pattern with clean separation of concerns
+- **SOLID Principles** — especially Single Responsibility
+- **Cubit** (flutter_bloc) for state management
+- **Repository Pattern** with abstract interfaces and concrete implementations
+
+---
+
+## 📦 Packages
+
+| Package | Usage |
+|---|---|
+| `flutter_bloc` | State management with Cubit |
+| `get_it` | Dependency injection (Singleton) |
+| `dio` | HTTP client for Google Books API |
+| `hive` + `hive_flutter` | Local storage for offline mode, favorites, and cart |
+| `go_router` | Navigation and routing |
+| `cached_network_image` | Efficient image loading and caching |
+| `dartz` | Functional error handling with `Either` |
+| `equatable` | Value equality for states and models |
+| `google_nav_bar` | Beautiful bottom navigation bar |
+| `skeletonizer` | Loading skeleton UI |
+| `lottie` | Lottie animations for onboarding |
+
+---
+
+## 📁 Project Structure
+
+```
+lib/
+├── core/
+│   ├── utils/         # API service, router, styles, colors
+│   └── errors/        # Failure classes
+├── features/
+│   ├── home/          # Featured & newest books
+│   ├── search/        # Book search
+│   ├── favorite/      # Favorites with Hive
+│   ├── cart/          # Cart with quantity & checkout
+│   ├── onboarding/    # Onboarding screens
+│   └── splash/        # Splash screen
+```
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/bookly_app.git
+
+# Install dependencies
+flutter pub get
+
+# Run code generation
+flutter pub run build_runner build --delete-conflicting-outputs
+
+# Run the app
+flutter run
+```
+
+---
+
+## 📡 API
+
+Uses the **Google Books API** to fetch free ebooks by category.
+
+---
+
+## 🛠️ State Management Flow
+
+```
+UI → Cubit → Repo (abstract) → RepoImpl → API / Hive
+```
+
+---
+
+## 📝 Notes
+
+- Offline data is cached using **Hive** boxes: `bookbox`, `favbox`, `cartbox`
+- Dependency injection is handled via **GetIt** singleton
+- All navigation is managed by **GoRouter**
