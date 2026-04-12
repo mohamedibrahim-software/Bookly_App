@@ -5,13 +5,19 @@ A feature-rich Flutter book browsing application with offline support, favorites
 ---
 ## ✨ screen shote
 
-
-<img width="1080" height="2160" alt="Screenshot_1775999987" src="https://github.com/user-attachments/assets/1169b0c3-601d-4cf8-a445-75926cc4d6a1" />
-<img width="1080" height="2160" alt="Screenshot_1775999993" src="https://github.com/user-attachments/assets/be1d65a6-cc0e-4dc6-853f-c0d10b8aea19" />
-<img width="1080" height="2160" alt="Screenshot_1775999945" src="https://github.com/user-attachments/assets/b4968e1c-cee8-4aa6-8663-c8c9f43db3a8" />
-<img width="1080" height="2160" alt="Screenshot_1775999975" src="https://github.com/user-attachments/assets/ac763ae6-978b-4a52-976b-4d68da2d06cf" />
-<img width="1080" height="2160" alt="Screenshot_1775999940" src="https://github.com/user-attachments/assets/96de2276-463e-48d1-a956-c1c4efcb79e4" />
 <img width="1080" height="2160" alt="Screenshot_1775999930" src="https://github.com/user-attachments/assets/747bf8e7-b26d-4101-b591-98a7c4b88094" />
+.
+4a52-976b-4d68da2d06cf" />
+<img width="1080" height="2160" alt="Screenshot_1775999940" src="https://github.com/user-attachments/assets/96de2276-463e-48d1-a956-c1c4efcb79e4" />
+.
+<img width="1080" height="2160" alt="Screenshot_1775999987" src="https://github.com/user-attachments/assets/1169b0c3-601d-4cf8-a445-75926cc4d6a1" />
+.
+<img width="1080" height="2160" alt="Screenshot_1775999993" src="https://github.com/user-attachments/assets/be1d65a6-cc0e-4dc6-853f-c0d10b8aea19" />
+.
+<img width="1080" height="2160" alt="Screenshot_1775999945" src="https://github.com/user-attachments/assets/b4968e1c-cee8-4aa6-8663-c8c9f43db3a8" />
+.
+<img width="1080" height="2160" alt="Screenshot_1775999975" src="https://github.com/user-attachments/assets/ac763ae6-978b-
+
 
 
 
