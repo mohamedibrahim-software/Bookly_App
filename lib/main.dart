@@ -1,12 +1,12 @@
-import 'package:bookly_app/Hivehlper.dart';
 import 'package:bookly_app/core/theme/cubit/cubit/theme_cubit.dart';
 import 'package:bookly_app/core/utils/Approuter.dart';
+import 'package:bookly_app/core/utils/Hivehlper.dart';
+import 'package:bookly_app/core/utils/myblocobserive.dart';
 import 'package:bookly_app/core/utils/service_locator.dart';
 import 'package:bookly_app/features/cart/data/repo/cartrepoimpl.dart';
 import 'package:bookly_app/features/cart/presentation/manger/cubitcart/cubit/cart_cubit.dart';
 import 'package:bookly_app/features/favorite/data/favrepoimpl.dart';
 import 'package:bookly_app/features/favorite/presintation/manger/getfav/cubit/fav_cubit.dart';
-import 'package:bookly_app/myblocobserive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/adapters.dart';

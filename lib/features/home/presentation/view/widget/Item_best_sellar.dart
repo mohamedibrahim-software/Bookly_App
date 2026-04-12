@@ -80,7 +80,7 @@ class Item_Book extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              double.parse(book.price!.toString()).toString(),
+                              double.parse(book.price.toString()).toString(),
 
                               style: Styles.textStyle20.copyWith(),
                             ),
