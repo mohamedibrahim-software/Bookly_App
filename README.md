@@ -64,16 +64,19 @@ A feature-rich Flutter book browsing application with offline support, favorites
 ```
 lib/
 ├── core/
-│   ├── utils/         # API service, router, styles, colors
-│   └── errors/        # Failure classes
+│   ├── network/
+│   ├── utils/
+|   ├── errors/
+|   ├── widgets/
+│
 ├── features/
-│   ├── home/          # Featured & newest books
-│   ├── search/        # Book search
-│   ├── favorite/      # Favorites with Hive
-│   ├── cart/          # Cart with quantity & checkout
-│   ├── onboarding/    # Onboarding screens
-│   └── splash/        # Splash screen
-```
+│   ├── data/
+│   │   ├── models/
+│   │   ├── repo/
+│   └── presentation/
+│       ├── views/
+│       └── manger/
+└── main.dart
 
 ---
 
